@@ -44,7 +44,11 @@
                             <span class="absolute left-[20.5px] bottom-[23px]">
                                 <div class="badge badge-secondary ">+99</div>
                             </span>
-                            <span><i class="fa-solid fa-cart-shopping text-yellow-500"></i></span>
+                            <label for="my-drawer-4" class="drawer-button">
+                                <span>
+                                    <i class="fa-solid fa-cart-shopping text-yellow-500"></i>
+                                </span>
+                            </label>
                         </li>
                     </ul>
 
@@ -77,7 +81,9 @@
                             </a>
                         </li>
                         <li><a href="">
-                                <i class="fa-solid fa-cart-shopping"></i>
+                                <label for="my-drawer-4" class="drawer-button">
+                                    <span><i class="fa-solid fa-cart-shopping"></i> </span>
+                                </label>
                                 <span>CART </span>
                             </a>
                         </li>
@@ -87,13 +93,31 @@
         </div>
         <!-- navbar end -->
     </heading>
+    <main>
+        <!-- drawer start here -->
+        <div class="drawer drawer-end">
+            <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+            <div class="drawer-content">
+                <!-- Page content here -->
 
-    <body>
+            </div>
+            <div class="drawer-side">
+                <label for="my-drawer-4" class="drawer-overlay"></label>
+                <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
+                    <!-- Sidebar content here -->
+                    <li><a>Sidebar Item 1</a></li>
+                    <li><a>Sidebar Item 2</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- drawer start end -->
+    </main>
 
-    </body>
+
+</body>
 
 
-    <script src="/script/index.js/"></script>
+<script src="/script/index.js/"></script>
 </body>
 
 </html>
